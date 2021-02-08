@@ -1,8 +1,8 @@
 import React from "react";
 import { Grid, GridItem, Box, Flex } from "@chakra-ui/react";
 import Header from "./layout/Header";
-import Sidebar from "./layout/sidebar";
-
+import Content from "./layout/Content";
+import Sidebar from "./layout/Sidebar";
 import Footer from "./layout/Footer";
 
 export default function Kanban(props) {
@@ -10,7 +10,7 @@ export default function Kanban(props) {
     <>
       <Flex>
         <Sidebar />
-        <Header />
+        <Content />
       </Flex>
       {/* <Grid
         h="100%"
