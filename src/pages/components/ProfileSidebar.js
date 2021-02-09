@@ -1,12 +1,33 @@
 import React from "react";
-import { Box, Badge, Text, Image, Spacer } from "@chakra-ui/react";
+import {
+  Box,
+  Badge,
+  Text,
+  Image,
+  Spacer,
+  Menu,
+  MenuButton,
+  MenuList,
+  MenuItem,
+  MenuGroup,
+  MenuDivider,
+  InputGroup,
+  InputLeftElement,
+  Input,
+  Button,
+} from "@chakra-ui/react";
+import { SearchIcon } from "@chakra-ui/icons";
 import { BsThreeDots } from "react-icons/bs";
 const ProfileSidebar = () => {
   return (
     <>
-      <Text fontSize="xl" mb="15%">
-        Search
-      </Text>
+      <InputGroup mb="15%">
+        <InputLeftElement
+          pointerEvents="none"
+          children={<SearchIcon color="gray.300" />}
+        />
+        <Input type="tel" placeholder="Search" />
+      </InputGroup>
       <Box d="flex" alignItems="center">
         <Image
           borderRadius="full"
@@ -39,8 +60,30 @@ const ProfileSidebar = () => {
           </Box>
         </Box>
         <Spacer />
-        <Box color="white">
-          <BsThreeDots />
+        <Box>
+          <Menu>
+            <MenuButton
+              as={Button}
+              color="white"
+              backgroundColor="teal.800"
+              colorScheme="teal"
+            >
+              <BsThreeDots />
+            </MenuButton>
+            <MenuList>
+              <MenuGroup title="Profile">
+                <MenuItem>My Account</MenuItem>
+              </MenuGroup>
+              <MenuDivider />
+              <MenuGroup title="Help">
+                <MenuItem>Docs</MenuItem>
+                <MenuItem>FAQ</MenuItem>
+              </MenuGroup>
+              <MenuDivider />
+
+              <MenuItem>Log Out</MenuItem>
+            </MenuList>
+          </Menu>
         </Box>
       </Box>
       <Box

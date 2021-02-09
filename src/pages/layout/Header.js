@@ -5,9 +5,12 @@ import {
   Heading,
   Spacer,
   Button,
-  Badge,
   Stack,
   Image,
+  Menu,
+  MenuButton,
+  MenuList,
+  MenuItem,
 } from "@chakra-ui/react";
 import Logo from "../assets/img/prosa.png";
 import { BsThreeDots } from "react-icons/bs";
@@ -22,17 +25,21 @@ const Header = () => {
             Kanban Prosa
           </Heading>
           <Box ml="10" color="black">
-            <Button borderRadius="full" mt="2" px="0" size="md">
-              <BsThreeDots />
-            </Button>
+            <Menu>
+              <MenuButton as={Button} borderRadius="full" mt="2" size="md">
+                <BsThreeDots />
+              </MenuButton>
+              <MenuList>
+                <MenuItem>Download</MenuItem>
+                <MenuItem>Create a Copy</MenuItem>
+                <MenuItem>Mark as Draft</MenuItem>
+                <MenuItem>Delete</MenuItem>
+              </MenuList>
+            </Menu>
           </Box>
         </Box>
         <Spacer />
         <Box>
-          {/* <Button colorScheme="teal" mr="4">
-            Sign Up
-          </Button>
-          <Button colorScheme="teal">Log in</Button> */}
           <Stack direction="row" alignItems="center">
             <Image
               borderRadius="full"

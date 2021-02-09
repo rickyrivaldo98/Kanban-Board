@@ -1,13 +1,5 @@
 import React from "react";
-import {
-  Box,
-  Badge,
-  Text,
-  Image,
-  Spacer,
-  Center,
-  Button,
-} from "@chakra-ui/react";
+import { Box, Text, Image, Spacer, Button } from "@chakra-ui/react";
 
 const MenuSidebar = () => {
   return (

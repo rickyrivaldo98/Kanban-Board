@@ -1,0 +1,80 @@
+{
+  "card": [
+    {
+      "issue_id": "1",
+      "title": "Judul1",
+      "assignee": "Ricky",
+      "start_date": "12-06-2020",
+      "end_date": "12-07-2020",
+      "tags": "RESEARCH",
+      "status": "Backlog"
+    },
+    {
+      "issue_id": "2",
+      "title": "Judul2",
+      "assignee": "Tendou",
+      "start_date": "12-06-2020",
+      "end_date": "12-07-2020",
+      "tags": "BACKEND",
+      "status": "Backlog"
+    },
+    {
+      "issue_id": "3",
+      "title": "Judul3",
+      "assignee": "Anas",
+      "start_date": "12-06-2020",
+      "end_date": "12-07-2020",
+      "tags": "DESIGN",
+      "status": "Backlog"
+    }
+  ],
+  "card2": [
+    {
+      "issue_id": "4",
+      "title": "Judul4",
+      "assignee": "Haikal",
+      "start_date": "12-06-2020",
+      "end_date": "12-07-2020",
+      "tags": "BACKEND",
+      "status": "Todo"
+    },
+    {
+      "issue_id": "5",
+      "title": "Judul5",
+      "assignee": "Ricky",
+      "start_date": "12-06-2020",
+      "end_date": "12-07-2020",
+      "tags": "RESEARCH",
+      "status": "Todo"
+    },
+    {
+      "issue_id": "6",
+      "title": "Judul6",
+      "assignee": "Anas",
+      "start_date": "12-06-2020",
+      "end_date": "12-07-2020",
+      "tags": "BACKEND",
+      "status": "Todo"
+    }
+  ],
+  "card3": [
+    {
+      "issue_id": "7",
+      "title": "Judul7",
+      "assignee": "Haikal",
+      "start_date": "12-06-2020",
+      "end_date": "12-07-2020",
+      "tags": "DESIGN",
+      "status": "Done"
+    },
+    {
+      "issue_id": "8",
+      "title": "Judul8",
+      "assignee": "Ricky",
+      "start_date": "12-06-2020",
+      "end_date": "12-07-2020",
+      "tags": "RESEARCH",
+      "status": "Done"
+    }
+  ]
+}

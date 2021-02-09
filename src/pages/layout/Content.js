@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Badge, Text, Image, Spacer } from "@chakra-ui/react";
+import { Box } from "@chakra-ui/react";
 import Header from "../layout/Header";
 import Footer from "../layout/Footer";
 import DropDrag from "../components/DropDrag";

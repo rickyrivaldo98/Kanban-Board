@@ -1,7 +1,7 @@
 import React from "react";
 import ProfileSidebar from "../components/ProfileSidebar";
 import MenuSidebar from "../components/MenuSidebar";
-import { Box, Badge, Text, Image } from "@chakra-ui/react";
+import { Box } from "@chakra-ui/react";
 
 const Sidebar = () => {
   return (
